@@ -39,11 +39,11 @@ pip install requirements.txt
 place your images in directory named **images** so it has the following structure
 ```console
       - images:
-            - class 0:
+            - category 0:
                   - im 0
                   - im 1
                   - im 2...
-            - class 1:
+            - category 1:
                   - im 0
                   - im 1...,
 ```
