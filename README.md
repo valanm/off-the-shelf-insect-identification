@@ -16,7 +16,7 @@ git clone https://github.com/valanm/off-the-shelf-insect-identification.git
 
 download and install [anaconda](https://www.anaconda.com/distribution/)
 
-navigate to the directory 
+navigate to the cloned directory 
 ```console
 cd /path/to/destination/off-the-shelf-insect-identification
 ```
@@ -37,6 +37,7 @@ pip install requirements.txt
 ```
 
 place your images in directory named **images** so it has the following structure
+```console
       - images:
             - class 0:
                   - im 0
@@ -45,7 +46,8 @@ place your images in directory named **images** so it has the following structur
             - class 1:
                   - im 0
                   - im 1...,
-                  
+```
+
 run a stand alone script **feature_extraction_and_SVM.py**. The script extracts features from all the images and performes SVM classification with 10fold cross validation
 ```console
 python feature_extraction_and_SVM.py
