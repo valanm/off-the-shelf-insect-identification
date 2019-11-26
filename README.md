@@ -1,25 +1,26 @@
 # off-the-shelf-insect-identification
 Main contribution of this repo is thorough evaluation of off-the-shelf approach for image classification based on a feature extraction with a single feed forward pass trough pretrained VGG16.
 
-To run on your own dataset:
-1. 
+To run on your own dataset follow these steps:
+
+1. clone the off-the-shelf project
 ```console
 git clone https://github.com/valanm/off-the-shelf-insect-identification.git
 ```
 2. download and install [anaconda](https://www.anaconda.com/distribution/)
-3. 
+3. navigate to the directory 
 ```console
 cd /path/to/destination/off-the-shelf-insect-identification
 ```
-4. 
+4. create a new conda environment
 ```console
 conda create -n myprojectname python=2.7 anaconda
 ```
-5. 
+5. activate the environment
 ```console
 conda activate myprojectname
 ```
-6. 
+6. install the dependencies 
 ```console
 pip install requirements.txt
 ```
@@ -36,12 +37,7 @@ pip install requirements.txt
 ```console
 python feature_extraction_and_SVM.py
 ```
-9. 
+9. deactivate the environment
 ```console
 conda deactivate
-```
-
-```python
-s = "Python syntax highlighting"
-print s
 ```
