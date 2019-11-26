@@ -3,7 +3,11 @@ Main contribution of this repo is thorough evaluation of off-the-shelf approach 
 
 To run on your own dataset follow these steps (tested on Ubuntu 16.04):
 
-open the terminal
+open your terminal
+```console
+ctrl + alt + T
+```
+
 
 clone the off-the-shelf project
 ```console
