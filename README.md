@@ -45,12 +45,12 @@ place your images in directory named **images** so it has the following structur
                   - im 0
                   - im 1...,
                   
-8. run a stand alone script **feature_extraction_and_SVM.py**. The script extracts features from all the images and performes SVM classification with 10fold cross validation
+run a stand alone script **feature_extraction_and_SVM.py**. The script extracts features from all the images and performes SVM classification with 10fold cross validation
 ```console
 python feature_extraction_and_SVM.py
 ```
 
-9. deactivate the environment
+deactivate the environment
 ```console
 conda deactivate
 ```
