@@ -15,6 +15,7 @@ git clone https://github.com/valanm/off-the-shelf-insect-identification.git
 ```
 
 download and install [anaconda](https://www.anaconda.com/distribution/)
+
 navigate to the directory 
 ```console
 cd /path/to/destination/off-the-shelf-insect-identification
