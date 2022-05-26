@@ -1,4 +1,4 @@
 keras==2.1.1
-tensorflow==1.4.0
+tensorflow==2.7.2
 scikit-learn==0.19.1
 plotly==2.2.2
